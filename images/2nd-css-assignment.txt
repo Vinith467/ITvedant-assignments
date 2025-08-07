@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="images/secondstyle.css">
+</head>
+<body>
+    <main>
+        <div class="box">
+            <p>this div has fixed position</p>
+        </div>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae debitis architecto modi esse porro! Quo assumenda culpa debitis laudantium provident quos quis, dolor blanditiis magni. Id placeat sunt enim optio?
+            Quam ipsum perferendis voluptatum aliquam autem commodi quas delectus cumque officiis odit labore nulla laboriosam fugit sed iste nostrum, ratione animi quo repellendus harum odio consequuntur. Architecto impedit sit id?
+            Quam ab ullam sequi, corrupti ex consequuntur possimus minus. Sint repellendus, natus nemo similique dolore ex eos ab quisquam praesentium quo repudiandae possimus doloremque repellat ut commodi dolor, quis in!
+            Veniam fugit nostrum laudantium nobis aut saepe dolores harum numquam inventore, dolorem, deserunt accusantium illo eius, eos sapiente pariatur quae libero! Ipsa similique quo omnis et autem nihil earum molestias.
+            Ut minima perspiciatis aliquam nobis excepturi laudantium quo itaque suscipit harum ad non id exercitationem ipsam, accusantium natus repellendus voluptas eveniet voluptatibus labore perferendis, iste consectetur cumque atque libero. Ducimus!
+            Atque porro at minima reprehenderit delectus nisi, eligendi esse fugiat voluptates obcaecati, non magni harum hic recusandae consequuntur asperiores, a sunt officiis? Optio animi a, quia aliquid aut corporis. Perspiciatis.
+            Dolor eaque nobis labore quisquam voluptas, asperiores at eligendi? Explicabo, optio fugiat. Nihil laborum molestias dignissimos atque maiores maxime autem, sed qui voluptatibus doloremque accusantium, placeat facere reiciendis saepe id.
+            Beatae distinctio quaerat alias ipsum ipsa nobis corporis aliquid, totam reiciendis iste dolores, aut ipsam, reprehenderit adipisci error molestias blanditiis dicta a at. Doloribus, nemo vitae? Fugit dicta iusto placeat.
+            Expedita ullam atque unde asperiores. Beatae vero possimus fugit nulla eveniet sint quod enim aliquid distinctio ad, omnis dicta soluta aliquam odio exercitationem non accusantium minus, dolorum fugiat sed facilis!
+            Doloribus earum sit provident similique sint tempore, itaque molestias culpa ipsam in aliquam repudiandae veniam tenetur vitae unde nobis ducimus? Velit molestiae ab nihil sapiente praesentium odio! Necessitatibus, sapiente commodi?
+            Voluptate sint impedit molestiae consequatur facere dolor odit tempora consectetur id, cum nemo praesentium iusto quis tempore natus. Explicabo qui magni veniam deserunt iure minus neque doloremque ea quidem reiciendis!
+            Obcaecati, recusandae quas inventore nihil pariatur, repellendus est ipsa quaerat mollitia reiciendis animi excepturi aperiam hic adipisci! Provident tenetur beatae deleniti vel laboriosam nulla, officia ex omnis, maiores aliquam iste.
+            Maxime velit beatae odit! Voluptatibus vero odit beatae iste asperiores iusto quidem cumque eius autem quibusdam natus quaerat cum porro, odio tempore corrupti facilis voluptatem soluta enim quo! Iure, quidem!
+            Voluptas, eligendi repudiandae? Quaerat dicta tempora sequi excepturi nisi iure repudiandae molestiae cupiditate vel praesentium rerum consequuntur vitae hic, dolor voluptatem eos magnam perferendis mollitia ut dolorum fugiat eum explicabo!
+            Aspernatur similique, repudiandae accusantium, molestiae dolore soluta consequatur reiciendis velit eius, earum iusto suscipit unde alias? Maiores facere in rem laboriosam ad autem error. Nostrum dolorem placeat doloribus qui magnam.
+        </p>
+    </main>
+    
+</body>
+</html>
+______________________________________________________________________________________________
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    .box{
+        background-color: red;
+        border: 2px solid;
+        width: fit-content;
+        padding: 30px;
+        margin: 10px;
+        position: absolute;
+        position: fixed;
+
+    }
+}

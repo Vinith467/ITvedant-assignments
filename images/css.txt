@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ITVEDANT</title>
+    <link rel="stylesheet" href="images/style.css">
+</head>
+<body>
+    <main>
+        <div>
+             <h1 id="title">ITVEDANT</h1>
+        </div>
+       
+        <div class="container">
+           <p class="para"><i>India's leading and trusted IT Training institute offering classroom & online training</i></p>
+        </div>
+        <div class="logo">
+            <img src="images/itvedant.png"  class="img" width="100%" >
+        </div>
+    </main>
+</body>
+</html>
+_______________________________________________________________________________________
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  h1#title {
+    text-align: center;
+    margin-top: 140px;
+    text-shadow: 3px 6px 3px rgb(152, 162, 115);
+  }
+  .container {
+    text-align: center;
+    .para {
+      display: inline-block;
+      padding: 15px 5px 10px 5px;
+      box-shadow: 8px 6px 3px rgb(152, 162, 115);
+      border: 2px solid black;
+      width: 470px;
+      height: 60px;
+      margin: 20px;
+    }
+  }
+  .logo {
+    text-align: center;
+    .img {
+      border: 2px solid white;
+      box-shadow: 8px 6px 3px rgb(152, 162, 115);
+      width: 430px;
+      height: 240px;
+      display: inline-block;
+    }
+  }
+}

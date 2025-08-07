@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="images/formstyle.css">
+</head>
+
+<body>
+    <div class="form">
+        <form action="">
+            <div class="lable">
+                <label for="username">Enter Username:</label>
+                <div>
+                    <input type="text" class="bar" placeholder="Enter email ID">
+                </div>
+            </div>
+            <div class="lable">
+                <label for="password">Enter Password</label>
+                <div>
+                    <input type="password" class="bar" placeholder="Password here">
+
+                </div>
+
+            </div>
+            <div>
+                <button class="button">Login</button>
+            </div>
+        </form>
+
+    </div>
+
+</body>
+
+</html>
+______________________________________________________________________________________________
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  text-align: start;
+
+  .form {
+    position: absolute;
+    left: 50%;
+    margin-top: 200px;
+    transform: translate(-50%, -50%);
+    background-color: #f1e7ba;
+    width: 250px;
+    height: 160px;
+    padding: 10px;
+
+    .lable {
+      color: white;
+      padding: 5px;
+      font-size: smaller;
+    }
+    .bar{
+        width: 220px;
+        padding: 5px;
+        margin: 2px;
+        font-size:xx-small;
+        border: none;
+        border-radius: 2px;
+    }
+    .button{
+        background-color:#e84420;
+        color: white;
+        border-radius:20px;
+        border: none;
+        width: 100%;
+        padding: 4px;
+        margin-top: 12px;
+    }
+  }
+}
+\

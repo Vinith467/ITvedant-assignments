@@ -1,0 +1,16 @@
+Inline CSS means writing CSS directly inside an HTML tag using the style attribute.
+It is used to style just one specific element.
+<p style="color: blue; font-size: 18px;">This is Inline CSS</p>
+  
+
+
+External CSS means writing your CSS in a separate .css file (example: style.css) and linking it to your HTML page using the <link> tag.
+<head>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <p class="text">This is External CSS</p>
+</body>
+This style can be used on multiple pages and multiple elements.
+
+It's the best method for professional and large websites.

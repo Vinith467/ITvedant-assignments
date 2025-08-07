@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table Tag</title>
+</head>
+
+<body>
+    <main>
+        <table border="">
+            <thead>
+                <tr>
+                    <th style="padding: 20px;"><b>Topic</b></th>
+                    <th style="padding:20px;
+                    "><b>Description</b></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td style="padding: 20px;">Program</td>
+                    <td style="padding: 20px;">A set of instruction that you give to a computer so that i will do a
+                        particular task</td>
+                </tr>
+                <tr>
+                    <td style="padding: 20px;">Algorithm</td>
+                    <td style="padding: 20px;"><b>A setp-by-step procedure used to solve a problem is called
+                            Algorithm</b></td>
+                </tr>
+                <tr>
+                    <td style="padding: 20px;">
+                        Flowchart
+                    </td>
+                    <td style="padding: 20px;"><i>A flowchart is a type of diagram that visually explains a process or
+                            workflow</i></td>
+                </tr>
+                <tr>
+                    <td style="padding: 20px;">Compiler</td>
+                    <td style="padding: 20px;"><u>A compiler translates code written in a high-level programming
+                            language into a
+                            lower-level language</u></td>
+                </tr>
+                <tr>
+                    <td style="padding: 20px;">Interpreter</td>
+                    <td style="padding: 20px;"><small>An interpreter translates the code line-by-line when the program
+                            is running. </small>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="padding: 20px;">
+                        Chemical formula of water
+                    </td>
+                    <td style="padding: 20px;">H<sub>2</sub>O</td>
+                </tr>
+                <tr>
+                    <td style="padding: 20px;">Area of circle</td>
+                    <td style="padding: 20px;">&pi;r<sup>2</sup></td>
+                </tr>
+
+
+            </tbody>
+        </table>
+    </main>
+
+</body>
+
+</html>

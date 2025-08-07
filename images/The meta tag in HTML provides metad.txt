@@ -1,0 +1,13 @@
+The <meta> tag in HTML provides metadata (data about data) about your webpage to browsers and search engines.
+
+It does not display anything on the page. Instead, it tells the browser important things like:
+
+Page description
+
+Character encoding
+
+Author
+
+Viewport settings for mobile
+
+SEO-related information

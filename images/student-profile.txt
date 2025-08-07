@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student|Profile</title>
+    <style>
+        body{
+            font-family: Arial;
+            text-align: center;
+            margin-top: 100px;
+            margin: 300px;
+        }
+        table{
+            text-align: start;
+        }
+        td{
+            padding: 2px;
+        }
+        input[type="text"],
+        input[type="email"],
+        input[type="password"]{
+            width: 220px;
+            padding:6px;
+        }
+        input[type="submit"]
+        {
+            margin: 10px;
+            margin-left: 100px;
+        }
+
+    </style>
+</head>
+
+<body>
+    <h2>Create Profile</h2>
+    <form>
+        <table>
+            <tr>
+                <td>
+                    <label for="firstname"><b>First Name:</b></label>
+                </td>
+                <td>
+                    <input type="text" placeholder="First Name">
+                </td>
+            </tr>
+            <tr>
+                <td><label for="Lastname"><b>Last Name:</b></label></td>
+                <td> <input type="text" placeholder="Last Name"></td>
+
+            </tr>
+            <tr>
+                <td> <label for="DOB"><b>Date of Birth:</b></label></td>
+                <td> <input type="date"></td>
+            </tr>
+            <tr>
+                <td> <label for="Enter age"><b>Enter age:</b></label></td>
+                <td><input type="number" placeholder="Age"></td>
+            </tr>
+            <tr>
+                <td><label for=""><b>Gender:</b></label>
+                    <label for="male">
+                    </label>
+                </td>
+                <td>
+                    <input type="radio" value="male" name="Gender" checked>Male
+                    <label for="female">
+                        <input type="radio" value="female" name="Gender">Female
+                    </label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for=""><b>Current Address:</b></label>
+                </td>
+                <td><textarea cols="50" rows="5">
+            </textarea></td>
+            </tr>
+            <tr>
+                <td><label for=""><b>Permanent Address:</b></label></td>
+                <td>
+                    <textarea cols="50" rows="5">
+            </textarea>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="submit" value="Create">
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+
+</html>

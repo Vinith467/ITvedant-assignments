@@ -1,0 +1,17 @@
+    CLIENTS
+   ┌────────────┐     ┌────────────┐     ┌────────────┐
+   │ Browser 1  │     │ Browser 2  │     │ Mobile App │
+   └────┬───────┘     └────┬───────┘     └────┬───────┘
+        │                Request              │
+        └───────────────►  Server ◄───────────┘
+                          (Processes data)
+        ┌───────────────┬───────────────┬──────────────┐
+        │  Response     │  Response     │  Response     │
+   ┌────▼───────┐ ┌─────▼──────┐ ┌──────▼──────┐
+   │ Browser 1  │ │ Browser 2 │ │ Mobile App │
+   └────────────┘ └────────────┘ └────────────┘
+Client-Server Architecture is a network model where:
+
+Client = The user-side (like your browser or app)
+
+Server = The machine or software that stores and delivers data, services, or resources
