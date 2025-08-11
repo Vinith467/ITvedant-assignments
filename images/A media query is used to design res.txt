@@ -1,0 +1,4 @@
+A media query is used to design responsive web pages by applying different CSS styles based on the device’s characteristics (like screen width, height, or orientation).
+
+We often use min-width and max-width to control when certain styles should apply — for example, only if the screen is within or beyond a specific size range.
+

@@ -44,15 +44,17 @@ ________________________________________________________________________________
 body {
   text-align: start;
 
-  .form {
+.form {
     position: absolute;
     left: 50%;
-    margin-top: 200px;
+    top:50%;
+    /* margin-top: 200px; */
     transform: translate(-50%, -50%);
     background-color: #f1e7ba;
     width: 250px;
     height: 160px;
     padding: 10px;
+
 
     .lable {
       color: white;
