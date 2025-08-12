@@ -1,0 +1,28 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  .form {
+    text-align: start;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 1px 1px 8px;
+    width: 250px;
+    padding: 10px;
+  }
+  .lable {
+
+    padding: 5px;
+    font-size: smaller;
+  }
+  .bar {
+    width: 220px;
+    padding: 5px;
+    margin: 2px;
+    font-size:small;
+  }
+}
