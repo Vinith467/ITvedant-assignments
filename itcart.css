@@ -6,9 +6,6 @@
     }
 }
 body{
-    .navbar-brand{
-        color: blue
-    }
     .list-unstyled{
         a{
             color: black;
