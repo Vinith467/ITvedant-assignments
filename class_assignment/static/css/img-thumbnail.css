@@ -4,42 +4,40 @@
   background-color: rgb(144, 144, 144);
 }
 body {
-    background-color: rgb(144, 144, 144);
+  background-color: rgb(144, 144, 144);
   header {
     text-align: center;
-    padding: 10px;
-    margin-bottom: 20px;
     position: relative;
     z-index: 1000;
-    h1{
-        background-color: black;
-        color: white;
-        padding: 10px;
+    h1 {
+      background-color: black;
+      color: white;
+      padding: 10px;
     }
-
+  }
+  .container{
+    padding: 10px;
   }
   .thumbnail {
-    background-color:rgb(144, 144, 144);
+    background-color: rgb(144, 144, 144);
     padding: 20px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 2px;
   }
   .img-thumbnail {
     aspect-ratio: 1/1;
     object-fit: cover;
     cursor: pointer;
   }
-  .photo {
-  
-  }
   .photo img {
     width: 100%;
     height: auto;
-    object-fit:cover;
-    transition: all 0.3s ease;
+    object-fit: cover;
+    transition: all 0.6s ease;
   }
-  .photo img:hover{
-    transform: scale(1.5);
+  .photo img:hover {
+    transform: scale(1.2);
     z-index: 1;
     position: relative;
   }
